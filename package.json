@@ -1,0 +1,28 @@
+{
+  "name": "employee_manager",
+  "version": "1.0.0",
+  "description": "This is a command line applciation the helps build and manage a team of developers ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmanosalvas/Employee_Manager.git"
+  },
+  "keywords": [
+    "team",
+    "builder"
+  ],
+  "author": "Ricardo Manosalvas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmanosalvas/Employee_Manager/issues"
+  },
+  "homepage": "https://github.com/rmanosalvas/Employee_Manager#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}

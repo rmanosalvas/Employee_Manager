@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS employeeDB;
+
+CREATE DATABASE employeeDB;
+
+USE employeeDB;
+
+CREATE TABLE products (
+  id INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (id)
+);
