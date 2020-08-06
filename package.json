@@ -2,7 +2,7 @@
   "name": "employee_manager",
   "version": "1.0.0",
   "description": "This is a command line applciation the helps build and manage a team of developers ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "npm run test"
   },
