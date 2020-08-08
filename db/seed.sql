@@ -8,7 +8,7 @@ VALUES
     ("Human Resources");
 /* Legal (1), Finance (2), Information Technology (3), Sales (4), Human Resources (5) */
 
-INSERT INTO roles
+INSERT INTO role
     (title, salary, department_id)
 VALUES
     ("Lead Attorney", 150000, 1),
@@ -18,7 +18,7 @@ VALUES
     ("Senior Developer", 115000, 3),
     ("Junior Developer", 70000, 3),
     ("Sales Manager", 82000, 4),
-    ("Sales Associate"., 50000, 4),
+    ("Sales Associate", 50000, 4),
     ("HR Director", 110000, 5),
     ("HR Assistant", 60000, 5);
 
@@ -29,4 +29,9 @@ VALUES
     ("Sadie", "Rose", 8, 3),
     ("Charles", "Huntsman", 4, null),
     ("Joe", "Montana", 6, 4),
-    ()
+    ("Akbar", "Faher", 1, null),
+    ("Rick", "Mano", 5, 1),
+    ("Kyle", "New", 10, null),
+    ("Ryan", "Mayo", 2, 10),
+    ("Les", "Ju", 7, null),
+    ("Britt", "Adam", 9, 7)
