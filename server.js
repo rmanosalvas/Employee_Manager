@@ -39,7 +39,7 @@ function init() {
                 "Add a department",
                 "Add a role",
                 "Add an employee",
-                "Update employee role",
+                // "Update employee role",
                 "Exit"
             ]
         })
@@ -71,9 +71,9 @@ function init() {
                     addEmployee();
                     break;
 
-                case "Update employee role":
-                    updateEmployee();
-                    break;
+                // case "Update employee role":
+                //     updateEmployee();
+                //     break;
 
                 case "Exit":
                     exitApp();
@@ -199,9 +199,33 @@ function addEmployee() {
         });
 };
 
-function updateEmployee() {
-    connection.query("SELECT * FROM role")
-};
+// function updateEmployee() {
+//     let currentEmployees = [];
+//     var query = "SELECT * FROM employee"
+//     connection.query(query, function (err, answer) {
+//         // console.log(answer);
+//         for (let i = 0; i < answer.length; i++) {
+//             let employees = answer[i].role_id + " " + answer[i].first_name + " " + answer[i].last_name;
+//             // console.log(employees);
+//             currentEmployees.push(employees);
+//             console.log(currentEmployees);
+//         };
+//     });
+//     inquirer
+//         .prompt([{
+//             type: "list",
+//             name: "employeeList",
+//             choices: currentEmployees,
+//         }, 
+//         {
+//             type: "list",
+//             name: "newRole",
+//             choices: ["Manager", "Team"]
+//         }])
+//         .then(function (answer) {
+//             console.log(answer.role_id)
+//         })
+// };
 
 function exitApp() {
     connection.end();
