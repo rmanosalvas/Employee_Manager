@@ -8,13 +8,8 @@ This Node CLI is a command line application where a Business owner can view and 
 Open 'server.js' in you terminal and run 'npm install' to bring the packages you will need to run the application. After the application is downloaded, run 'node server.js' to begin the prompts about your team. 
 
 ## Pics
-Answering the prompts...
-![](images/Screen%20Shot%202020-07-25%20at%209.35.08%20PM.png)
-
-Generated results...
-![](images/Screen%20Shot%202020-07-25%20at%209.35.30%20PM.png)
-
-Test...
-![](images/Screen%20Shot%202020-07-25%20at%2010.03.29%20PM.png)
-
+List of prompts
+![](images/Screen%2520Shot%25202020-08-08%2520at%25208.26.22%2520PM.png)
+Setting the databse
+![](images/Screen%2520Shot%25202020-08-08%2520at%25208.26.39%2520PM.png)
 
