@@ -9,7 +9,7 @@ Open 'server.js' in you terminal and run 'npm install' to bring the packages you
 
 ## Pics
 List of prompts
-![](images/Screen%2520Shot%25202020-08-08%2520at%25208.26.22%2520PM.png)
+![](images/Screen%20Shot%202020-08-08%20at%208.26.22%20PM.png)
 Setting the databse
-![](images/Screen%2520Shot%25202020-08-08%2520at%25208.26.39%2520PM.png)
+![](images/Screen%20Shot%202020-08-08%20at%208.26.39%20PM.png)
 
